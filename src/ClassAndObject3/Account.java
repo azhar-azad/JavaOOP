@@ -19,9 +19,6 @@ public class Account {
     public Account(int id, double balance) {
         this.id = id;
         this.balance = balance;
-        // default values are initialized as they are not being passed in this constructor
-        this.annualInterestRate = 0;
-        this.dateCreated = new Date();
     }
 
     public int getId() {
